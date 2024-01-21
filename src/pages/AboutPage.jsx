@@ -1,5 +1,7 @@
+//AboutPage.jsx
 export default function AboutPage() {
   return (
-    <div>about</div>
+    <h1>about</h1>
+    
   )
 }

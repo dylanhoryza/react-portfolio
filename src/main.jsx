@@ -6,12 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import HomePage from './components/pages/HomePage';
-import AboutPage from './components/pages/AboutPage';
-import ProjectPage from './components/pages/ProjectPage';
-import ContactPage from './components/pages/ContactPage';
-import ResumePage from './components/pages/ResumePage';
-import ErrorPage from './components/pages/ErrorPage';
+import HomePage from './pages/HomePage.jsx';
+import AboutPage from './pages/AboutPage.jsx';
+import ProjectPage from './pages/ProjectPage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
+import ResumePage from './pages/ResumePage.jsx';
+import ErrorPage from './pages/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,11 +32,11 @@ const router = createBrowserRouter([
         element: <ProjectPage />,
       },
       {
-        path: 'contact',
+        path: '/contact',
         element: <ContactPage />,
       },
       {
-        path: 'resume',
+        path: '/resume',
         element: <ResumePage /> ,     
       }
     ]

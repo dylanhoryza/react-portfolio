@@ -2,6 +2,10 @@
 
 .app-container {
   background-color: #151F29;
+  background-image: url('../src/assets/portfolio-bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   min-height: 100vh;
   font-family: 'Noto Sans JP', sans-serif;
   color: white;

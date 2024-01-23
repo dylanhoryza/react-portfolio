@@ -1,0 +1,68 @@
+/* #about-me {
+  margin-top: 600px;
+  margin-bottom: 200px;
+} */
+
+#about-me {
+  margin-top: 100px;
+}
+
+.card-text li {
+  margin-bottom: 7px;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 0px 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  /* background-color: rgba(76, 175, 80);  */
+  background-color: #151F29;
+  color: white;
+}
+
+
+#about-bio {
+  font-size: 19.5px;
+  line-height: 2;
+}
+
+.skills-list {
+  columns: 2; /* Set the number of columns */
+  column-gap: 20px; /* Adjust the gap between columns */
+  padding: 0; /* Remove default padding */
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.about-me-card, .skills-card {
+  background-color: #151F29;
+   color: rgb(187, 184, 184);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8); 
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.about-me-card:hover, .skills-card:hover {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6);
+  
+}
+
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+  }
+
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+  }

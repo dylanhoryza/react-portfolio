@@ -1,3 +1,8 @@
-body {
-  background-color: green;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+.app-container {
+  background-color: #151F29;
+  min-height: 100vh;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
 }

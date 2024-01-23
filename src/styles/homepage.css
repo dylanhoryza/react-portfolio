@@ -1,0 +1,22 @@
+.short-bio {
+  margin-top: 250px;
+  color: white; 
+}
+
+.short-bio h1 {
+  font-size: 5.5rem;
+  font-weight: bold; 
+}
+
+.short-bio p {
+  font-size: 2rem;
+  margin-top: 25px; 
+}
+
+/* .bg-image {
+  background-image: url('../assets/portfolio-bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+} */

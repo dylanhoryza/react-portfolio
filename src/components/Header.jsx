@@ -7,10 +7,10 @@ export default function Header() {
   return (
     <Navbar
       links={[
-        <Link key={1} className='nav-link-a' activeClassName='selected' to='/'>
+        <Link key={1} className='nav-link-a' activeclassname='selected' to='/'>
           Home
         </Link>,
-        <Link key={2} className='nav-link-a' activeClassName='selected' to='/about'>
+        <Link key={2} className='nav-link-a' activeclassname='selected' to='/about'>
           About Me
         </Link>,
         <Link key={3} className='nav-link-a'activeClassName='selected' to='/portfolio'>

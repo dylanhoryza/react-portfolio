@@ -1,0 +1,18 @@
+.resume-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.resume-download {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.download-btn {
+  margin-bottom: 10px;
+  border-color: white;
+  border-style: solid;
+  background-color: green
+}
+

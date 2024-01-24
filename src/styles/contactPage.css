@@ -1,16 +1,16 @@
-/* ContactPage.css */
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-}
 
 .contact-container {
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 8px;
   margin-top: 50px;
   background-color: #151F29;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8); 
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.contact-container:hover {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6);
 }
 
 .form {

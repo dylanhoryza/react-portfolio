@@ -1,0 +1,48 @@
+/* ContactPage.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 50px;
+  background-color: #151F29;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #151F29;
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+}

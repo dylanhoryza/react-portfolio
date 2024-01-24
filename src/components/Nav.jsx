@@ -13,8 +13,8 @@ export default function Nav() {
         <Link key={2} className='nav-link-a' activeClassName='selected' to='/about'>
           About Me
         </Link>,
-        <Link key={3} className='nav-link-a'activeClassName='selected' to='/projects'>
-          Projects
+        <Link key={3} className='nav-link-a'activeClassName='selected' to='/portfolio'>
+          Portfolio
         </Link>,
         <Link key={4} className='nav-link-a'activeClassName='selected' to='/contact'>
           Contact

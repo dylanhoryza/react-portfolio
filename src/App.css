@@ -6,7 +6,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   font-family: 'Noto Sans JP', sans-serif;
   color: white;
+  overflow: hidden;
 }
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: auto;
+}
+

@@ -1,0 +1,29 @@
+/* Footer.css */
+
+.footer {
+  background-color: #151F29;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: white;
+}
+
+.socialMedia img {
+  width: 40px; 
+  height: auto;
+  margin: 0 10px; 
+}
+
+

@@ -1,0 +1,82 @@
+.projects-header {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover;
+  object-position: top;
+}
+
+.budget-buddy {
+object-position: bottom;
+}
+
+.project-card {
+background-color: #151F29;
+
+color: rgb(187, 184, 184);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8); 
+transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.project-card:hover {
+box-shadow: 0 4px 8px rgba(255, 255, 255, 0.6);
+}
+
+.app-bio {
+font-size: 18px;
+line-height: 1.5;
+}
+
+.app-bio {
+display: none;
+}
+
+.project-card:hover .app-bio {
+display: block;
+}
+
+.view-btn {
+margin-top: 10px;
+margin-right: 8px;
+padding: 5px 20px;
+background-color: transparent;
+color: white;
+border: solid;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+transition-duration: 0.4s;
+}
+
+.view-btn:hover {
+background-color: rgba(76, 175, 80);
+color: white;
+}
+
+.more-projects {
+color:rgb(187, 184, 184);
+font-size: 20px;
+text-align: center;
+font-style: italic;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.github-btn {
+width: 100px;
+margin-top: 10px;
+}
+
+#projects {
+  margin-top: 50px;
+}

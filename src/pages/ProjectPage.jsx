@@ -3,6 +3,7 @@ import React from 'react';
 import Project from '../components/UI/Project';
 import '../styles/projectpage.css';
 
+// images used in projects
 import budgetImage from '../assets/budget-buddy.jpg';
 import movieImage from '../assets/movie-picker.jpg';
 import techImage from '../assets/tech-blog.jpg';
@@ -10,6 +11,7 @@ import weatherImage from '../assets/weather-app.jpg';
 import quizImage from '../assets/code-quiz.jpg';
 import textImage from '../assets/text-editor.jpg';
 
+// Projects content stored as array
 const ProjectPage = () => {
   const projects = [
     {
@@ -80,6 +82,7 @@ const ProjectPage = () => {
     
   ];
 
+    // return projects content on page by mapping over projects array
   return (
     <section className="container project-container" id="projects">
       <h1 className="projects-header"></h1>

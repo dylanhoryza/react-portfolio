@@ -3,7 +3,7 @@ import '../reset.css'
 import '../styles/aboutpage.css'
 import avatarImage from '../assets/avatar.jpg'
 
-
+// About page content 
 export default function AboutPage() {
   return (
     <section class="container" id="about-me">

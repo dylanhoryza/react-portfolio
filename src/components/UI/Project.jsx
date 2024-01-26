@@ -1,6 +1,7 @@
 // Project.jsx
 import React from 'react';
 
+// Project component that can be resued for each project
 const Project = ({ title, description, projectLink, repoLink, imageSrc, altText }) => {
   return (
     <div className="col-md-6">

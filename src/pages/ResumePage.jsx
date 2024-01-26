@@ -40,7 +40,7 @@ const ResumePage = () => {
       <div className="col-md-6">
         <div className="card about-me-card">
           <div className="card-body">
-            <h5 className="card-title">Frontend Proficiencies</h5>
+            <h5 className="card-title resume-title">Frontend Proficiencies</h5>
             <ul className="card-text skills-list">
               <li>HTML</li>
             <li>React.js</li>
@@ -57,7 +57,7 @@ const ResumePage = () => {
       <div className="col-md-6">
         <div className="card skills-card">
           <div className="card-body">
-            <h5 className="card-title">Backend Proficiences</h5>
+            <h5 className="card-title resume-title">Backend Proficiences</h5>
             <ul className="card-text skills-list">
               <li>Node.js</li>
               <li>Express.js</li>

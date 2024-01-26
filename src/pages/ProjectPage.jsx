@@ -81,7 +81,7 @@ const ProjectPage = () => {
   ];
 
   return (
-    <section className="container" id="projects">
+    <section className="container project-container" id="projects">
       <h1 className="projects-header"></h1>
       <div className="row">
         {projects.map((project, index) => (

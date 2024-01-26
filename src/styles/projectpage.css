@@ -59,8 +59,8 @@ transition-duration: 0.4s;
 }
 
 .view-btn:hover {
-background-color: rgba(76, 175, 80);
-color: white;
+background-color: #FAFC6B;
+color: #151f29;
 }
 
 .more-projects {
@@ -79,4 +79,9 @@ margin-top: 10px;
 
 #projects {
   margin-top: 50px;
+}
+
+
+.project-container {
+  width: 100%;
 }

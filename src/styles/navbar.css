@@ -4,7 +4,6 @@ header {
   align-items: center;
   padding: 20px 20px;
   /* border-bottom: 2px solid #ccc; */
-  
 }
 
 .nav-links {
@@ -18,9 +17,25 @@ header {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 24px;
-  
+}
+
+.nav-link-a:focus {
+  color: #FAFC6B;
 }
 
 .selected {
   color: yellow;
+}
+
+@media (max-width: 600px) {
+  .nav-link-a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-link-a {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
 }

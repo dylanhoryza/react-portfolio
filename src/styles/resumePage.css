@@ -2,17 +2,26 @@
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+  margin-top: -35px;
 }
 
 .resume-download {
   font-size: 24px;
   margin-right: 10px;
+  color:rgb(187, 184, 184);
+  font-style: italic;
 }
 
 .download-btn {
   margin-bottom: 10px;
   border-color: white;
   border-style: solid;
-  background-color: green
+  background-color: #FAFC6B;
+  color: black;
+}
+
+.download-btn:hover {
+  background-color: transparent;
+  color: white;
 }
 

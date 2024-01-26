@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
 .app-container {
-  background-color: #151F29;
+  background-color: #151f29;
   background-image: url('../src/assets/portfolio-bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,5 +17,19 @@
   flex-direction: column;
   min-height: 100vh;
   overflow: auto;
+  
 }
+
+@media (max-width: 1268px) {
+  .app-container {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    background-position: center;
+  }
+}
+
 

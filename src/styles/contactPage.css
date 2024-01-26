@@ -39,7 +39,8 @@ button {
 }
 
 button:hover {
-  background-color: #151F29;
+  background-color: #FAFC6B;
+  color: #151f29;
 }
 
 .error-text {

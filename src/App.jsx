@@ -6,6 +6,7 @@ import './reset.css'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// App that renders all content 
 function App() {
   return (
     <div className='app-wrapper'>

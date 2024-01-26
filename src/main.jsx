@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+// Import each page
 import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import ProjectPage from './pages/ProjectPage.jsx';
@@ -13,6 +14,7 @@ import ContactPage from './pages/ContactPage.jsx';
 import ResumePage from './pages/ResumePage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 
+// render each page by its correct path
 const router = createBrowserRouter([
   {
     path: '/',

@@ -1,3 +1,5 @@
+// Navbar with links as a prop 
+
 export default function Nav({ links }) {
   return (
     <header>

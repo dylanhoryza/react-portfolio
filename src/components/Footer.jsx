@@ -4,6 +4,7 @@ import FacebookIcon from '../assets/Facebook_Logo_Secondary.png';
 import LinkedInIcon from '../assets/LI-In-Bug.png';
 import "../styles/Footer.css";
 
+// Footer component reused for each page
 function Footer() {
   return (
     <div className="footer">

@@ -2,12 +2,14 @@ import React from 'react';
 import { pdfjs } from 'react-pdf';
 import '../styles/resumePage.css'
 
+// npm package to download PDF
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
   import.meta.url,
 ).toString();
 
 const ResumePage = () => {
+  // URL that will begin download for resume
   const resumePdf = `${window.location.origin}/Dylan_Horyza_Resume.pdf`;
 
   const downloadResume = async () => {
@@ -30,6 +32,7 @@ const ResumePage = () => {
     }
   };
 
+  // resume page content
   return (
     <section className="container" id="about-me">
     <div className="resume-container">

@@ -1,5 +1,5 @@
 import '../styles/homepage.css'
-
+// Homepage content
 export default function HomePage() {
   return (
     <div className='bg-image'>

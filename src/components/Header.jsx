@@ -3,7 +3,7 @@ import Navbar from './UI/Navbar';
 import '../styles/navbar.css';
 
 
-
+// Linking Header to Navbar component
 export default function Header() {
   return (
     <Navbar
